@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/event_tracker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/event_tracker"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/event_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_tracker_title"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/event_text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/event_getstarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_textview"
+        android:layout_centerHorizontal="true"
+        android:text="@string/get_started"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_getstarted"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:cursorVisible="true"
+        android:hint="@string/enter_name"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        android:longClickable="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColorHint="@color/light_grey"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/continue_button"
+        style="@style/BlueButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/contnue" 
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

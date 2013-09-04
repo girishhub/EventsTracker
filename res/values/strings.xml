@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EventsTracker</string>
+    <string name="event_tracker">Events Tracker</string>
+    <string name="events">Events</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_tracked_events">My Tracked Events</string>
+    <string name="favorites">My Tracked Events</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="event_text">Hey guys! just enter your name and start tracking the hot events happening in the city.</string>
+    <string name="get_started">Its Amazing. Enjoy..!!</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="contnue">Continue</string>
+    <string name="track_event">Track Event</string>
+    <string name="tracked_events">Tracked Events for</string>
+    <string name="blank_name">Name is required!</string>
+    <string name="event">Event:</string>
+    <string name="venue">Venue:</string>
+    <string name="entry">Entry:</string>
+    <string name="no_events">No events tracked</string>
+    <string name="remove_event">Remove Event</string>
+
+    <!-- Event Names -->
+    <string name="metallica_concert">Metallica Concert</string>
+    <string name="saree_exhibition">Saree Exhibition</string>
+    <string name="wine_tasting_event">Wine tasting event</string>
+    <string name="startups_meet">Startups Meet</string>
+    <string name="summer_noon_party">Summer Noon Party</string>
+    <string name="rock_and_roll_nights">Rock and Roll nights</string>
+    <string name="barbecue_fridays">Barbecue Fridays</string>
+    <string name="summer_workshop">Summer workshop</string>
+    <string name="impressions_expressions">Impressions &amp; Expressions</string>
+    <string name="italian_carnival">Italian Carnival</string>
+
+    <!-- Event Venues -->
+    <string name="palace_grounds">Palace Grounds</string>
+    <string name="malleswaram_grounds">Malleswaram Grounds</string>
+    <string name="links_brewery">Links Brewery</string>
+    <string name="kanteerava">Kanteerava Indoor Stadium</string>
+    <string name="kumara_park">Kumara Park</string>
+    <string name="sarjapur_road">Sarjapur Road</string>
+    <string name="whitefield">Whitefield</string>
+    <string name="indiranagar">Indiranagar</string>
+    <string name="mg_road">MG Road</string>
+    <string name="electronic_city">Electronic City</string>
+
+    <!-- Event Entry Type -->
+    <string name="paid">paid</string>
+    <string name="free">free</string>
+
+</resources>

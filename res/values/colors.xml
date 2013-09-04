@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="light_grey">#C0C0C0</color>
+        <color name="dark_grey">#484848</color>
+        <!-- <color name="main_background">#CC9933</color> -->
+        <color name="main_background">#0099CC</color>
+</resources>
